@@ -1,0 +1,23 @@
+{
+    "Accept": [
+        "jane.smith@gmail.com",
+        "tom.jones@gmail.com"
+    ],
+    "Reject": [
+        "jane.smith@gmail.com",
+        "tom.jones@gmail.com"
+    ],
+    "Withdraw": [
+        "joe.bloggs@gmail.com"
+    ],
+    "Pending": [
+        "joe.bloggs@gmail.com",
+        "jane.smith@gmail.com",
+        "tom.jones@gmail.com"
+    ],
+    "Complete": [
+        "joe.bloggs@gmail.com",
+        "jane.smith@gmail.com",
+        "tom.jones@gmail.com"
+    ]
+}

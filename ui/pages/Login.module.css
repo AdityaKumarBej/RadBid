@@ -1,0 +1,100 @@
+.loginHeaderSection {
+    background-color: #003657;
+    border-bottom: 1px solid #002237;
+    color: #ffffff;
+    height: 125px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.applicationName {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.loginMidSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 1 1 auto;
+}
+
+.loginFooterSection {
+    background-color: #002237;
+    color: #ffffff;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 11px;
+    flex: 0 1 auto;
+}
+
+.loginFooterSection a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.loginFooterSection a:hover{
+    text-decoration: underline;
+}
+
+.loginForm {
+    padding: 30px;
+    /* box-shadow: -1px 1px 5px #ababab; */
+    background-color: #ffffff;
+}
+
+.loginForm input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #969696;
+    width: 350px;
+    font-size: 15px;
+}
+
+.loginForm input:focus {
+    outline: none !important;
+    border: 1px solid #00a3d6;
+    box-shadow: 0px 0px 10px rgba(0, 54, 87, 0.5)
+}
+
+.formItem {
+    margin-top: 20px;
+}
+
+.loginButton {
+    background-color: #217bb6 !important;
+    padding: 10px !important;
+    color:#ffffff !important;
+    width:350px;
+    font-size: 15px;
+}
+
+.loginButton_disabled {
+    background-color: #ababab !important;
+    padding: 10px !important;
+    color:#ffffff !important;
+    width:350px;
+    font-size: 15px;
+}
+
+.literature{
+    width: 350px;
+    font-size: 12px;
+    margin-top: 20px
+}
+
+.errorMessage{
+    height: 15px;
+    color: #d81a1a;
+    text-align: center;
+}

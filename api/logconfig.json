@@ -1,0 +1,11 @@
+{
+    "modules" : {
+        "Application.js"        : "SERVER",
+        "ConfigProvider.js"     : "CONFIG",
+        "DummyAuthHandler.js"   : "AUTH",
+        "SecurityDataHandler.js": "SECURITY",
+        "OMTDataHandler.js"     : "OMTDATA",
+        "BrokerValidations.js"  : "BROKER",
+        "Submit.js"             : "DAMLCOMM"
+    }
+}

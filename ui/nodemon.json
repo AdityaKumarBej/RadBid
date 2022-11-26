@@ -1,0 +1,21 @@
+{
+    "verbose":true,
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ],
+    "env": {
+        "HOMEPAGE" : "/dashboard",
+        "UI_CONTEXT_ROOT" : "/ui",
+        "UI_PORT" : 3000,
+        "INTERNAL_API_URL" : "http://localhost:9086/api",
+        "API_URL" : "http://localhost:9086/api",
+        "METRICS_LOGGING_ENABLED" : false
+    },
+    "watch": [
+        "Server.js",
+        "src/",
+        "pages/"
+    ]
+}

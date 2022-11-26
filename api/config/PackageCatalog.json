@@ -1,0 +1,358 @@
+{
+    "DA.Logic.Types": {
+        "packageId": "c1f1f00558799eec139fb4f4c76f95fb52fa1837a5dd29600baa1c8ed1bdccfd",
+        "moduleName": "DA.Logic.Types",
+        "entityName": "Formula"
+    },
+    "ledgerId": "asxomt-sandbox",
+    "DA.Time.Types": {
+        "packageId": "733e38d36a2759688a4b2c4cec69d48e7b55ecc8dedc8067b815926c917a182a",
+        "moduleName": "DA.Time.Types",
+        "entityName": "Formula"
+    },
+    "DA.Date.Types": {
+        "packageId": "bfcd37bd6b84768e86e432f5f6c33e25d9e7724a9d42e33875ff74f6348e733f",
+        "moduleName": "DA.Date.Types",
+        "entityName": "Formula"
+    },
+    "GHC.Types": {
+        "packageId": "518032f41fd0175461b35ae0c9691e08b4aea55e62915f8360af2cc7a1f2ba6c",
+        "moduleName": "GHC.Types",
+        "entityName": "Formula"
+    },
+    "TransferRequest:TransferRequest": {
+        "packageId": "8e411d04fbdc0485abb070bd4558736997a3a7059503b64ee79654c658cfc0fa",
+        "moduleName": "TransferRequest",
+        "entityName": "TransferRequest"
+    },
+    "DA.Internal.Any": {
+        "packageId": "cc348d369011362a5190fe96dd1f0dfbc697fdfd10e382b9e9666f0da05961b7",
+        "moduleName": "DA.Internal.Any",
+        "entityName": "Formula"
+    },
+    "GHC.Tuple": {
+        "packageId": "6839a6d3d430c569b2425e9391717b44ca324b88ba621d597778811b2d05031d",
+        "moduleName": "GHC.Tuple",
+        "entityName": "Formula"
+    },
+    "GHC.Stack.Types": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Stack.Types",
+        "entityName": "Formula"
+    },
+    "GHC.Enum": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Enum",
+        "entityName": "Formula"
+    },
+    "GHC.Show": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Show",
+        "entityName": "Formula"
+    },
+    "GHC.Num": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Num",
+        "entityName": "Formula"
+    },
+    "GHC.Classes": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Classes",
+        "entityName": "Formula"
+    },
+    "Control.Exception.Base": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "Control.Exception.Base",
+        "entityName": "Formula"
+    },
+    "GHC.Err": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Err",
+        "entityName": "Formula"
+    },
+    "GHC.Base": {
+        "packageId": "7cbb10d2488454034d290b8c16b7cfa4fc59c749ca379696c54f74bf453f52b3",
+        "moduleName": "GHC.Base",
+        "entityName": "Formula"
+    },
+    "LibraryModules": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "LibraryModules",
+        "entityName": "Formula"
+    },
+    "DA.Validation.Types": {
+        "packageId": "99a2705ed38c1c26cbb8fe7acf36bbf626668e167a33335de932599219e0a235",
+        "moduleName": "DA.Validation.Types",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Erased": {
+        "packageId": "76bf0fd12bd945762a01f8fc5bbcdfa4d0ff20f8762af490f8f41d6237c6524f",
+        "moduleName": "DA.Internal.Erased",
+        "entityName": "Formula"
+    },
+    "DA.NonEmpty.Types": {
+        "packageId": "e22bce619ae24ca3b8e6519281cb5a33b64b3190cc763248b4c3f9ad5087a92c",
+        "moduleName": "DA.NonEmpty.Types",
+        "entityName": "Formula"
+    },
+    "DA.Internal.PromotedText": {
+        "packageId": "d58cf9939847921b2aab78eaa7b427dc4c649d25e6bee3c749ace4c3f52f5c97",
+        "moduleName": "DA.Internal.PromotedText",
+        "entityName": "Formula"
+    },
+    "DA.Monoid.Types": {
+        "packageId": "6c2c0667393c5f92f1885163068cd31800d2264eb088eb6fc740e11241b2bf06",
+        "moduleName": "DA.Monoid.Types",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Template": {
+        "packageId": "d14e08374fc7197d6a0de468c968ae8ba3aadbf9315476fd39071831f5923662",
+        "moduleName": "DA.Internal.Template",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Down": {
+        "packageId": "057eed1fd48c238491b8ea06b9b5bf85a5d4c9275dd3f6183e0e6b01730cc2ba",
+        "moduleName": "DA.Internal.Down",
+        "entityName": "Formula"
+    },
+    "DA.Validation": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Validation",
+        "entityName": "Formula"
+    },
+    "DA.Stack": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Stack",
+        "entityName": "Formula"
+    },
+    "DA.Semigroup": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Semigroup",
+        "entityName": "Formula"
+    },
+    "DA.Record": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Record",
+        "entityName": "Formula"
+    },
+    "DA.Random": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Random",
+        "entityName": "Formula"
+    },
+    "DA.Time": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Time",
+        "entityName": "Formula"
+    },
+    "DA.NonEmpty": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.NonEmpty",
+        "entityName": "Formula"
+    },
+    "DA.Next.Set": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Next.Set",
+        "entityName": "Formula"
+    },
+    "DA.Next.Map": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Next.Map",
+        "entityName": "Formula"
+    },
+    "DA.TextMap": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.TextMap",
+        "entityName": "Formula"
+    },
+    "DA.Traversable": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Traversable",
+        "entityName": "Formula"
+    },
+    "DA.Maybe.Total": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Maybe.Total",
+        "entityName": "Formula"
+    },
+    "DA.Optional.Total": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Optional.Total",
+        "entityName": "Formula"
+    },
+    "DA.Maybe": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Maybe",
+        "entityName": "Formula"
+    },
+    "DA.Math": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Math",
+        "entityName": "Formula"
+    },
+    "DA.Numeric": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Numeric",
+        "entityName": "Formula"
+    },
+    "DA.Map": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Map",
+        "entityName": "Formula"
+    },
+    "DA.Logic": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Logic",
+        "entityName": "Formula"
+    },
+    "DA.List.Total": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.List.Total",
+        "entityName": "Formula"
+    },
+    "DA.Generics": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Generics",
+        "entityName": "Formula"
+    },
+    "DA.Foldable": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Foldable",
+        "entityName": "Formula"
+    },
+    "DA.Monoid": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Monoid",
+        "entityName": "Formula"
+    },
+    "DA.Either": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Either",
+        "entityName": "Formula"
+    },
+    "DA.Date": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Date",
+        "entityName": "Formula"
+    },
+    "DA.Text": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Text",
+        "entityName": "Formula"
+    },
+    "DA.List": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.List",
+        "entityName": "Formula"
+    },
+    "DA.Tuple": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Tuple",
+        "entityName": "Formula"
+    },
+    "DA.Optional": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Optional",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Time": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Time",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Date": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Date",
+        "entityName": "Formula"
+    },
+    "DA.Bifunctor": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Bifunctor",
+        "entityName": "Formula"
+    },
+    "DA.Assert": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Assert",
+        "entityName": "Formula"
+    },
+    "DA.Action.State": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Action.State",
+        "entityName": "Formula"
+    },
+    "DA.Action.State.Class": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Action.State.Class",
+        "entityName": "Formula"
+    },
+    "DA.Action": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Action",
+        "entityName": "Formula"
+    },
+    "DA.Functor": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Functor",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Desugar": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Desugar",
+        "entityName": "Formula"
+    },
+    "Prelude": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "Prelude",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Template.Functions": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Template.Functions",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Compatible": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Compatible",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Assert": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Assert",
+        "entityName": "Formula"
+    },
+    "DA.Internal.LF": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.LF",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Record": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Record",
+        "entityName": "Formula"
+    },
+    "DA.Internal.RebindableSyntax": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.RebindableSyntax",
+        "entityName": "Formula"
+    },
+    "DA.Internal.Prelude": {
+        "packageId": "9ff4a8f2ea698bfcb5ccdcaefc62ea1baa77abac3b88534e56d6148c441bf6cc",
+        "moduleName": "DA.Internal.Prelude",
+        "entityName": "Formula"
+    },
+    "GHC.Prim": {
+        "packageId": "e491352788e56ca4603acc411ffe1a49fefd76ed8b163af86cf5ee5f4c38645b",
+        "moduleName": "GHC.Prim",
+        "entityName": "Formula"
+    },
+    "DA.Types": {
+        "packageId": "40f452260bef3f29dede136108fc08a88d5a5250310281067087da6f0baddff7",
+        "moduleName": "DA.Types",
+        "entityName": "Formula"
+    },
+    "DA.Semigroup.Types": {
+        "packageId": "8a7806365bbd98d88b4c13832ebfa305f6abaeaf32cfa2b7dd25c4fa489b79fb",
+        "moduleName": "DA.Semigroup.Types",
+        "entityName": "Formula"
+    }
+}

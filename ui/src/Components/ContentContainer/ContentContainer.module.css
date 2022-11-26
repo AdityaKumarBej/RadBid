@@ -1,0 +1,16 @@
+.contentContainer{
+    display: table;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+}
+.renderSection{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 0 0 0;
+}

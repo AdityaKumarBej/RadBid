@@ -1,0 +1,39 @@
+{
+  "name": "radbid_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "https",
+    "url": "https://github.com/AdityaKumarBej/RadBid.git"
+  },
+  "scripts": {
+    "dev": "nodemon Server.js",
+    "buildWin": "set NODE_ENV=production && next build",
+    "build": "NODE_ENV=production next build",
+    "start": "npm run build && pm2 start ecosystem.config.js --env ${APP_ENV}",
+    "stop": "pm2 stop all",
+    "startWin": "npm run build && pm2 start ecosystem.config.js --env ${APP_ENV}"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.57",
+    "express": "^4.17.1",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "^10.0.8",
+    "next-cookies": "^2.0.3",
+    "next-images": "^1.7.0",
+    "pm2": "^4.5.5",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "universal-cookie": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
+

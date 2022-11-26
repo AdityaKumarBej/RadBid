@@ -1,0 +1,150 @@
+{
+    "admin@radbid.com" : {
+        "pwd"       : "Welcome@1",
+        "profile"   : {
+                        "entityType"    : "ADMIN",
+                        "entities"      : ["AD"],
+                        "entityId"      : "AD",
+                        "entityName"    : "RadBid",
+                        "email"         : "admin@radbid.com",
+                        "exchangeProfile"   :   {
+                                                    "brokers"                   : ["BROKERA"],
+                                                    "accountRegistrationName"   : "Operations User",
+                                                    "accountDesignation"        : "",
+                                                    "tradingAccountNumber"      : "",
+                                                    "pid"                       : "",
+                                                    "srn_hinNumber"             : "",
+                                                    "registeredAddress"         : "",
+                                                    "state"                     : "",
+                                                    "postCode"                  : "",
+                                                    "country"                   : "",
+                                                    "mobilePhone"               : "",
+                                                    "homePhone"                 : "",
+                                                    "email"                     : ""
+                                                }
+                    }
+    },
+    "joe.bloggs@gmail.com" : {
+        "pwd"       : "Welcome@1",
+        "profile"   : {
+                        "entityType"    : "PARTICIPANT",
+                        "entities"      : ["JOEBLOGGS"],
+                        "entityId"      : "JOEBLOGGS",
+                        "entityName"    : "Joe Bloggs",
+                        "email"         : "joe.bloggs@gmail.com",
+                        "exchangeProfile"   :   {
+                                                    "brokers"                   : ["BROKERA"],
+                                                    "accountRegistrationName"   : "Joe Bloggs",
+                                                    "accountDesignation"        : "",
+                                                    "tradingAccountNumber"      : "1047345",
+                                                    "pid"                       : "4321",
+                                                    "srn_hinNumber"             : "X0001234567",
+                                                    "registeredAddress"         : "1 Margaret Street",
+                                                    "state"                     : "New South Wales",
+                                                    "postCode"                  : "0011",
+                                                    "country"                   : "Australia",
+                                                    "mobilePhone"               : "+61(2)95208688",
+                                                    "homePhone"                 : "+61(2)95208688",
+                                                    "email"                     : "joe.bloggs@gmail.com"
+                                                }
+                    }
+    },
+    "jane.smith@gmail.com" : {
+        "pwd"       : "Welcome@1",
+        "profile"   : {
+                        "entityType"    : "CUSTOMER",
+                        "entities"      : ["JANESMITH"],
+                        "entityId"      : "JANESMITH",
+                        "entityName"    : "Jane Smith",
+                        "email"         : "jane.smith@gmail.com",
+                        "exchangeProfile"   :   {
+                                                    "brokers"                   : ["BROKERA"],
+                                                    "accountRegistrationName"   : "Jane Smith",
+                                                    "accountDesignation"        : "Primary Account",
+                                                    "tradingAccountNumber"      : "1011322",
+                                                    "pid"                       : "1442",
+                                                    "srn_hinNumber"             : "X0001441569",
+                                                    "registeredAddress"         : "2 Greeg Place",
+                                                    "state"                     : "New South Wales",
+                                                    "postCode"                  : "0011",
+                                                    "country"                   : "Australia",
+                                                    "mobilePhone"               : "+61(2)95883381",
+                                                    "homePhone"                 : "+61(2)95883381",
+                                                    "email"                     : "jane.smith@gmail.com"
+                                                }
+                    }
+    },
+    "tom.jones@gmail.com" : {
+        "pwd"       : "Welcome@1",
+        "profile"   : {
+                        "entityType"    : "CUSTOMER",
+                        "entities"      : ["TOMJONES"],
+                        "entityId"      : "TOMJONES",
+                        "entityName"    : "Tom Jones",
+                        "email"         : "tom.jones@gmail.com",
+                        "exchangeProfile"   :   {
+                                                    "brokers"                   : ["BROKERB"],
+                                                    "accountRegistrationName"   : "Tom Jones",
+                                                    "accountDesignation"        : "",
+                                                    "tradingAccountNumber"      : "1012442",
+                                                    "pid"                       : "1332",
+                                                    "srn_hinNumber"             : "X0001194596",
+                                                    "registeredAddress"         : "210 Maple Street",
+                                                    "state"                     : "New South Wales",
+                                                    "postCode"                  : "0011",
+                                                    "country"                   : "Australia",
+                                                    "mobilePhone"               : "+61(2)95882231",
+                                                    "homePhone"                 : "+61(2)95882231",
+                                                    "email"                     : "tom.jones@gmail.com"
+                                                }
+                    }
+    },
+    "user@brokera.com" : {
+        "pwd"       : "Welcome@1",
+        "profile"   : {
+                        "entityType"    : "BROKER",
+                        "entities"      : ["BROKERA"],
+                        "entityId"      : "BROKERA",
+                        "entityName"    : "Broker A",
+                        "email"         : "user@brokera.com",
+                        "exchangeProfile"   :   {
+                                                    "accountRegistrationName"   : "",
+                                                    "accountDesignation"        : "",
+                                                    "tradingAccountNumber"      : "",
+                                                    "pid"                       : "",
+                                                    "srn_hinNumber"             : "",
+                                                    "registeredAddress"         : "210 Maple Street",
+                                                    "state"                     : "New South Wales",
+                                                    "postCode"                  : "0011",
+                                                    "country"                   : "Australia",
+                                                    "mobilePhone"               : "+61(2)95882231",
+                                                    "homePhone"                 : "+61(2)95882231",
+                                                    "email"                     : "user@brokera.com"
+                                                }
+                    }
+    },
+    "user@brokerb.com" : {
+        "pwd"       : "Welcome@1",
+        "profile"   : {
+                        "entityType"    : "BROKER",
+                        "entities"      : ["BROKERB"],
+                        "entityId"      : "BROKERB",
+                        "entityName"    : "Broker B",
+                        "email"         : "user@brokerb.com",
+                        "exchangeProfile"   :   {
+                                                    "accountRegistrationName"   : "",
+                                                    "accountDesignation"        : "",
+                                                    "tradingAccountNumber"      : "",
+                                                    "pid"                       : "",
+                                                    "srn_hinNumber"             : "",
+                                                    "registeredAddress"         : "210 Maple Street",
+                                                    "state"                     : "New South Wales",
+                                                    "postCode"                  : "0011",
+                                                    "country"                   : "Australia",
+                                                    "mobilePhone"               : "+61(2)95882231",
+                                                    "homePhone"                 : "+61(2)95882231",
+                                                    "email"                     : "user@brokera.com"
+                                                }
+                    }
+    }
+}

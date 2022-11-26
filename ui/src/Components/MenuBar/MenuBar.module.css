@@ -1,0 +1,30 @@
+.topMenuPanel{
+    height: 45px;
+    background-color : #004681;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    z-index: 8;
+    box-shadow: 1px 1px 15px #ababab;
+}
+.menuButton{
+    color: #ffffff;
+    height: 45px;
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #ababab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.menuButton div{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuButton:hover{
+    color: #004681;
+    background-color: #ffffff;
+    
+}

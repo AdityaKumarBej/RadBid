@@ -1,0 +1,88 @@
+openapi: "3.0.2"
+components:
+  schemas:
+    401:
+      type: "object"
+      properties:
+        status:
+          type: "boolean"
+        errMsg:
+          type: "string"
+  securitySchemes:
+    bearerAuthentication:
+      type: "http"
+      scheme: "bearer"
+      bearerFormat: "JWT"
+security:
+  - bearerAuthentication: []
+paths:
+  /ping/{pingid}:
+    get:
+      description: "Sanity check endpoint"
+      parameters:
+        - name: "pingid"
+          description: "Ping identifier to pong/echo with"
+          in: "path"
+          required: true
+          schema:
+            type: "string"
+      responses:
+        200:
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  status:
+                    type: "boolean"
+                  msg:
+                    type: "string"
+                  name:
+                    type: "string"
+                  version:
+                    type: "string"
+                    pattern: "^([0-9]+)\\.([0-9]+)\\.([0-9]+)"
+                  uptime:
+                    type: "number"
+  /auth/getAccessToken:
+    post:
+      tags:
+        - "Authentication"
+      description: "Authenticates a User via credentials and provides an access token"
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: "object"
+              properties:
+                email:
+                  description: "Email Address"
+                  type: "string"
+                password:
+                  description: "Password"
+                  type: "string"
+                  format: "password"
+              required:
+                - "email"
+                - "password"
+      responses:
+        200:
+          description: "OK"
+          content:
+            text/plain:
+              schema:
+                type: "string"
+        401:
+          description: "Unauthorized"
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/401"
+info:
+  title: "RadBid"
+  version: "1.0.0"
+  description: "Prototype - Backend for interacting with Scrypto Services"
+  termsOfService: ""
+servers:
+  - url: "http://localhost:9086/api"

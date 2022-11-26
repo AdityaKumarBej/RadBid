@@ -1,0 +1,7 @@
+{
+    "verbose"   : true,
+    "ignore"    : ["*.test.js", ".git", "node_modules/**/node_modules", "./public"],
+    "env"       : {
+        "APP_ENV" : "DEFAULT"
+    }
+}
