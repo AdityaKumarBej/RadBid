@@ -1,0 +1,29 @@
+.masterRenderContainer {
+	display: flex;
+	padding: 0%;
+}
+
+.masterRenderContainerChildSideBar {
+	/* width: 12%;
+	float: left;
+	border: 2px solid black;
+	padding: 2%; */
+
+
+	width: 50%;
+	float: left;
+	border: 2px solid black;
+	padding: 2%;
+}
+
+.masterRenderContainerChildContent {
+	/* margin-left: 12%;
+	width: 88%;
+	/* width: auto;				 */
+	/* float: left; */
+
+	margin-left: 50px;
+	/* margin-left: 11%; */
+	width: 100%;
+	float: left;
+}

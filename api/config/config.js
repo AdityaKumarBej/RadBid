@@ -12,7 +12,7 @@ module.exports.DEFAULT = {
         }
     },
     ledgerConfig: {
-        ledgerId: 'asxomt-sandbox',
+        ledgerId: 'RadBid',
         host: 'localhost',
         port: 6865,
         jsonApiHost: 'localhost',
@@ -25,7 +25,7 @@ module.exports.QA = {
     contextRoot: '/api',
     url: 'http://qa-myapi.broadridge.net/api',
     ledgerConfig: {
-        ledgerId: 'ASX-OMT-Sandbox',
+        ledgerId: 'RadBid',
         host: 'localhost',
         port: 6865,
         jsonApiHost: 'localhost',
@@ -38,7 +38,7 @@ module.exports.UAT = {
     contextRoot: '/api',
     url: 'http://uat-myapi.broadridge.net/api',
     ledgerConfig: {
-        ledgerId: 'ASX-OMT-Sandbox',
+        ledgerId: 'RadBid',
         host: 'localhost',
         port: 6865,
         jsonApiHost: 'localhost',
@@ -51,7 +51,7 @@ module.exports.PROD = {
     contextRoot: '/api',
     url: 'http://myapi.broadridge.net/api',
     ledgerConfig: {
-        ledgerId: 'ASX-OMT-Sandbox',
+        ledgerId: 'RadBid',
         host: 'localhost',
         port: 6865,
         jsonApiHost: 'localhost',

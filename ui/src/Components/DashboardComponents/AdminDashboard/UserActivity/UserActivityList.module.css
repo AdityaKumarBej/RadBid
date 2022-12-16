@@ -1,0 +1,9 @@
+.names {
+    color: #00578E;
+    font-weight:bold;
+}
+
+.names:hover {
+    cursor: pointer;
+    transform: scale(1.25);
+}

@@ -23,7 +23,11 @@ let registry = {
         [`${CONTEXT_ROOT}/`]            : "/Index",
         [`${CONTEXT_ROOT}/login`]       : "/Login",
         [`${CONTEXT_ROOT}/dashboard`]   : "/Dashboard",
-        [`${CONTEXT_ROOT}/history`]     : "/History",
+        [`${CONTEXT_ROOT}/auctions`]    : "/AuctionBrowse",
+        [`${CONTEXT_ROOT}/users`]       : "/Users",
+        [`${CONTEXT_ROOT}/uploadFile`]  : "/UploadFile",
+        [`${CONTEXT_ROOT}/addUser`]     : "/AddUser",  
+        [`${CONTEXT_ROOT}/registerAuctionItem`]     : "/RegisterAuctionItem"
     }
 }
 

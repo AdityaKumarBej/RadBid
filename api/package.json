@@ -1,11 +1,11 @@
 {
-  "name": "asx_omt_api",
+  "name": "radbid_middleware",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@git.devops.broadridge.net:BLOCKCHAIN/prototypes/asx_omt/api.git"
+    "url": "git@github.com:AdityaKumarBej/RadBid.git"
   },
   "scripts": {
     "dev": "nodemon Application.js",

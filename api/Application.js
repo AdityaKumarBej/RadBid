@@ -6,7 +6,6 @@ const apiSpec = require('./apispec/openapi.json');
 const express = require('express');
 const swaggerUI = require('swagger-ui-express');
 const jsonToYaml = require('json-to-pretty-yaml');
-const packageInfo = require('./package.json');
 const { resolve } = require('path');
 let app;
 const contextRoot = config.get('contextRoot');              // Context root on which this API will be served
@@ -99,7 +98,6 @@ const buildAPISpec = () => {
 
         apiSpec.info = {}
         apiSpec.info.title = "RadBid";
-        apiSpec.info.version = packageInfo.version;
         apiSpec.info.description = "Prototype - Backend for interacting with Scrypto Services";
         apiSpec.info.termsOfService = "";
         apiSpec.servers = [
@@ -137,7 +135,6 @@ const registerRoutes = () => {
 
         app.use(`${contextRoot}/spec`, require('./src/handlers/SpecHandler'));
         app.use(`${contextRoot}/auth`, require('./src/handlers/DummyAuthHandler').router);
-        app.use(`${contextRoot}/submit`, require('./src/reference/Submit').router);
         resolve()
     });
 }

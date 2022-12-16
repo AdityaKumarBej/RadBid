@@ -1,0 +1,132 @@
+.content {
+	position: relative;
+	/* height: 350px;
+	width: 100%;
+	background-color: rgb(178, 239, 243);
+	display: ruby-text-container; */
+	width: 1265px;
+	height: 433px;
+	left: 0px;
+	/* top: 1796px; */
+
+	background: linear-gradient(256.62deg, #AEDDFF 6.89%, #E3F1F7 74.8%);
+	/* border-radius: 25px; */
+	/* top: 150px; */
+}
+
+.VectorStyle {
+	/* Arrow */
+
+	width: 104px;
+	height: 55px;
+
+	/* Blue/Midnight Blue */
+	transform: matrix(1, 0, 0, -1, 0, 0);
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+
+.box {
+	position: absolute;
+	top: 334px;
+	left: 52px;
+}
+
+.text-1 {
+	text-align: left;
+	vertical-align: top;
+	font-size: 20px;
+	font-family: Open Sans;
+	letter-spacing: -2%;
+	line-height: 120.00000476837158%;
+	color: rgba(0, 163, 214, 1), rgba(0, 87, 142, 1);
+	background: linear-gradient(247.73deg, #00a3d6 0%, #00578e 100%);
+}
+
+.links {
+	position: absolute;
+	top: 125px;
+	right: 90px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 12px;
+}
+
+.text-2 {
+	text-align: right;
+	vertical-align: top;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Open Sans;
+	letter-spacing: 1%;
+	line-height: 150%;
+	color: #00578e;
+}
+
+.arrow {
+	position: static;
+	width: 104px;
+	height: 0px;
+	left: 45px;
+	top: 12px;
+	border: 2px solid #00578e;
+	border-width: 0 1px 1px 0;
+	display: inline-block;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 12px;
+}
+
+.right {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.gg_arrow_long_right {
+	box-sizing: border-box;
+	position: relative;
+	right: -10px;
+	display: block;
+	color: #00578E;
+	transform: scale(var(--ggs, 1));
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	box-shadow: inset 0 0 0 2px;
+	width: 107px;
+	height: 6px
+}
+
+.gg_arrow_long_right::after {
+	content: "";
+	display: block;
+	box-sizing: border-box;
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	border-top: 2px solid;
+	border-right: 2px solid;
+	transform: rotate(45deg);
+	right: -1px;
+	bottom: -5px
+}
+
+.gg_arrow_long_right:hover {
+	box-sizing: border-box;
+	position: relative;
+	right: -10px;
+	display: block;
+	color: #00578E;
+	transform: scale(var(--ggs, 1));
+	border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;
+	box-shadow: inset 0 0 0 2px;
+	width: 60px;
+	height: 6px
+}

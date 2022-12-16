@@ -1,0 +1,217 @@
+/* ----- css for ExploreTab cards--- */
+
+.containerExploreTab {
+	width: 90%;
+	margin: auto;
+}
+
+.cardsContainerExploreTab {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 6px;
+	color: #333;
+	/* background: #fff; */
+	padding: 1rem;
+	/* box-shadow: 0 0 1rem rgb(202, 47, 47) inset; */
+	overflow-x: auto;
+	position: relative;
+	max-height: 1000px;
+	max-width: 1500px;
+	left: -56px
+}
+
+.cardsContainerExploreTab::-webkit-scrollbar-button {
+	display: none;
+}
+
+
+.cardExploreTab {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	flex: 1 0 250px;
+	background: #fff;
+	margin: 1rem;
+	overflow: hidden;
+	border-radius: 20px;
+	cursor: pointer;
+	transition: all 250ms ease-in-out;
+	/* height: 256px;
+	width: 600px;
+	max-height: 300px;
+	max-width: 1000px; */
+	/* align-items: center; */
+	/* justify-content: center; */
+	height: 200px;
+	width: 1300px;
+	max-height: 500px;
+	max-width: 1920px;
+}
+
+.cardExploreTab:hover {
+	/* box-shadow: 0 4px 1rem -4px #000; */
+	transform: scale(1.05);
+}
+
+.cardContentExploreTab {
+	padding: 1rem;
+}
+
+@media screen and (max-width: 625px) {
+	.containerExploreTab {
+		width: 100%;
+	}
+
+	.cardsContainerExploreTab {
+		padding: 0.5rem;
+	}
+
+	.cardExploreTab {
+		margin: 0.5rem;
+	}
+}
+
+
+.containerExploreTab {
+	width: 90%;
+	margin: auto;
+}
+
+
+
+/*Integration Tab cards */
+.cardsContainerIntegrationTabCards {
+	display: flex;
+	flex-direction: column;
+	border-radius: 6px;
+	color: #333;
+	/* background: #eee; */
+	padding: 1rem;
+	/* box-shadow: 0 0 1rem rgb(202, 47, 47) inset; */
+	overflow-y: scroll;
+	position: relative;
+	/* width: fit-content; */
+	max-height: 930px;
+}
+
+.cardsContainerIntegrationTabCards::-webkit-scrollbar {
+	width: 12px;
+}
+
+.cardsContainerIntegrationTabCards::-webkit-scrollbar-track {
+	background-color: rgb(230, 230, 230);
+	/* color of the tracking area */
+}
+
+.cardsContainerIntegrationTabCards::-webkit-scrollbar-thumb {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	background-color: 'dark grey';
+}
+
+/* .cardsContainer::-webkit-scrollbar-button {
+  display: none;
+} */
+
+
+
+.cardIntegrationTabCard {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	flex: 1 0 250px;
+	/* box-shadow: 0 1px 1rem -4px #000; */
+	background: #fff;
+	/* margin: 1rem; */
+	margin-top: 3%;
+	/* overflow: hidden; */
+	border-radius: 30px;
+	cursor: pointer;
+	transition: all 250ms ease-in-out;
+	height: 200px;
+	width: 1300px;
+	max-height: 200px;
+	max-width: 1200px;
+	/* align-items: center; */
+	/* justify-content: center; */
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cardIntegrationTabCard:hover {
+	/* box-shadow: 0 4px 1rem -4px #000; */
+	transform: scale(1.03);
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+/* .card:hover {
+  box-shadow: 0 4px 1rem -4px #000;
+  transform: scale(1.05);
+} */
+
+.cardContentIntegrationTabCard {
+	padding: 1rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.containerExploreTab {
+		width: 100%;
+	}
+
+	.cardsContainerIntegrationTabCards {
+		padding: 0.5rem;
+	}
+
+
+}
+
+
+.integrationTabContent {
+
+	width: 552px;
+	height: 42px;
+
+	/* Body/Detail */
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 150%;
+	/* or 21px */
+
+
+	/* Grayscale/300 */
+
+	color: #9398A3;
+
+
+	/* Inside auto layout */
+
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.Btn{
+
+	font-family: sans-serif;
+	font-weight: 500;
+	float: left;
+	background-color: #FFFFFF;
+	border:1px solid #B0B8C2;
+	border-radius:44px;
+	color: #00578E;
+	padding: 6px;
+	font-size: 15px;
+	width: 11%;
+	text-transform: none;
+	margin-right: 10px;
+	height: 47px;
+
+}
+.Btn:hover {
+
+    background-color:#00578E;
+    transition: 0.7s;
+    color:#ffffff;
+  }

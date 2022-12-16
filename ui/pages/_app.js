@@ -26,7 +26,7 @@ const CustomApplication = ({Component, pageProps}) => {
     return (
         <React.Fragment>
             <Head>
-                <title>Broadridge Financial Solutions</title>
+                <title>RadBid</title>
                 <link rel="icon" href={`${UI_CONTEXT_ROOT}/favicon.ico`}></link>
             </Head>
             <ThemeProvider theme={theme}>

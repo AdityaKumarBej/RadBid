@@ -1,0 +1,4 @@
+CALL_METHOD ComponentAddress("account_sim1q0k7z627qrqufcshev6mp0yqjm3hdz24j9y09fg94vvshrvumx") "create_proof_by_amount" Decimal("1") ResourceAddress("resource_sim1qpz2p62qhncv43cc8xata943lf39khvfyn8stxs57dmsqt7wpw");
+CALL_METHOD ComponentAddress("system_sim1qsqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqs9fh54n") "lock_fee" Decimal("100");
+CALL_METHOD ComponentAddress("component_sim1qfu75t8ax307k3mku8w0efg5fjs0ct697vkczk22p2js57fe77") "approve_user" "JohnDoe";
+CALL_METHOD ComponentAddress("account_sim1q0k7z627qrqufcshev6mp0yqjm3hdz24j9y09fg94vvshrvumx") "deposit_batch" Expression("ENTIRE_WORKTOP");

@@ -1,0 +1,310 @@
+.heading {
+	position: absolute;
+	width: 311px;
+	height: 38px;
+	left: 128px;
+	top: 804px;
+
+	/* Headline/H2 */
+
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 120%;
+	/* or 38px */
+
+	letter-spacing: -0.02em;
+
+	/* Grayscale / 200 */
+
+	color: #50555C;
+}
+
+
+.frame257 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 48px;
+	position: relative;
+	top: 10px;
+	background: linear-gradient(89.31deg, #D0D3FF 0%, #52579C 100%);
+	width: 1500px;
+	height: 460px;
+	position: absolute;
+	overflow: hidden;
+
+}
+
+.frame259 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 24px;
+}
+
+.frame258 {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 16px;
+}
+
+.text2 {
+	position: relative;
+	right: -60px;
+	top: -64px;
+	width: 535px;
+	height: 116px;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 120%;
+	letter-spacing: -0.02em;
+	color: #FFFFFF;
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.text3 {
+	position: relative;
+	right: -60px;
+	top: -49px;
+	width: 535px;
+	height: 54px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 150%;
+	color: #FFFFFF;
+	flex: none;
+	order: 1;
+	align-self: stretch;
+	flex-grow: 0;
+}
+
+.ellipse1_1 {
+	position: absolute;
+	width: 1513px;
+	height: 1513px;
+	left: -108.36px;
+	top: -80px;
+	background: linear-gradient(101deg, #BDC0EE -1.25%, #52579C 63.38%);
+	border-radius: 50%;
+}
+
+.ellipse1_2 {
+	position: absolute;
+	width: 1120px;
+	height: 1120px;
+	left: -370.04px;
+	top: -81.37px;
+	background: linear-gradient(186deg, #A4A7D9 -29.3%, #52579C 106.25%);
+	border-radius: 50%;
+	transform: rotate(75deg);
+}
+
+
+.InWorkflowStatusBox {
+    /* display: inline-block; */
+    display: flex;
+    padding: 0px 8px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: -11px;
+    width: fit-content;
+    background: #EBFBF3;
+    align-items: center
+}
+
+.InWorkflowStatusText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 14px */
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* Positive/200 */
+    color: #006F2A;
+}
+
+.IdleWorkflowStatusBox {
+    /* display: inline-block; */
+    display: flex;
+    padding: 0px 8px;
+    height: 26px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: -11px;
+    width: fit-content;
+    background: #FFF2E9;
+    align-items: center
+}
+
+
+.IdleWorkflowStatusText {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    /* or 14px */
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    /* Positive/200 */
+    color: #9C4002;
+}
+
+
+.addTagButtonText {
+    width: 159px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #00578E;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: absolute;
+    border: 1px solid #B0B8C2;
+    background-color: #FFFFFF;
+    height: 39px;
+    padding: 6px;
+    border-radius: 12px;
+}
+
+.defaultColumnCells {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+
+    /* Grayscale/200 */
+
+    color: #50555C;
+}
+
+.columnHeader {
+    /* width: 100%; */
+    height: 21px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    /* Grayscale/200 */
+
+    color: #50555C;
+}
+
+.btnStyle{
+   background: #EDF1F5;
+}
+.btnStyle:hover{
+    background: #F7F8FA !important;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 83%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdownContent{
+    display: none;
+    background-color: #f9f9f9;
+    min-width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 133;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 9px;
+    padding-top: 8px;
+    position: absolute;
+    font-family: 'Open Sans';
+   
+  }
+  
+  /* Links inside the dropdown */
+  .dropdownContent a {
+    font-family: 'Open Sans';
+    color:#50555C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdownContent a:hover {background-color: #ededed}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.engagementTimePeriodFilter {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 6px;
+
+    width: 200px;
+    height: 56px;
+
+    /* Grayscale/900 */
+
+    background: #FFFFFF;
+    /* Grayscale/400 */
+
+    border: 1px solid #B0B8C2;
+    border-radius: 16px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: left;
+    text-transform: capitalize;
+
+
+
+    color: #00578E;
+
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    background-image: url('https://www.svgrepo.com/show/80156/down-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+    background-position: calc(100% - 16px);
+}

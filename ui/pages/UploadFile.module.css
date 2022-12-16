@@ -1,0 +1,107 @@
+.contactbutton {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 150%;
+	color: #00578e;
+	position: relative;
+	margin-top: -8%
+}
+
+.contactbutton1 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 150%;
+	color: #00578e;
+	position: relative;
+	margin-top: -7%
+}
+
+.contactbutton2 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 150%;
+	color: #00578e;
+	position: relative;
+	margin-top: 2%
+}
+
+.headertext {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 32px;
+	font-style: normal;
+	color: #50555c;
+	top: 40px;
+	position: relative;
+}
+
+.statictext1 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 150%;
+	color: #50555c;
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	top: 32px
+}
+
+.statictext2 {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 140%;
+	color: #50555c;
+	margin-top: 30px;
+	position: relative;
+	top: -111px;
+
+}
+
+.statictext3 {
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 140%;
+	color: #50555c;
+	margin-top: 40px;
+	position: relative;
+}
+
+.termscondition {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 150%;
+	color: #50555c;
+	position: relative;
+	top: -139px;
+	right: -4px
+}
+
+.uploadedcontacts {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 150%;
+	color: #50555c;
+	margin-top: 20px;
+	position: relative;
+	left: 70px;
+}
+
+.continueBtn:hover{
+	background: #00578E !important;
+}

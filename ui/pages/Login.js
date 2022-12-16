@@ -106,7 +106,7 @@ export default class Login extends Component {
 				</div>
 				<div
 					className={styles.loginMidSection}
-					 style={{ backgroundImage: `url('${UI_CONTEXT_ROOT}/login_backdrop.jpg') ` }}
+					 style={{ backgroundImage: `url('${UI_CONTEXT_ROOT}/login_page.jpg') ` }}
 				>
 					{this.state.showEntitySelection ? (
 						<div className={styles.loginForm}>
