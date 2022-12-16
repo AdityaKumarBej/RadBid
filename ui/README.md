@@ -42,14 +42,14 @@
 
 ## Testing via Resim for Smart Contract Functionality
 1. resim new-account
-2. export acc1=<account-component-address>
-3. export pk1=<private-key>
+2. export acc1=`account-component-address>`
+3. export pk1=`private-key>`
 
 4. resim publish . 
-5. export package=<package-id from step 4>          //(equivalent to the .abi and wasm file in alphanet)
+5. export package=`package-id from step 4`         //(equivalent to the .abi and wasm file in alphanet)
 
 6. resim call-function $package UserAuth instantiate_user_auth - gives component address and 4 resources are generated and approved users vault will have users badge
-7. export component=<component-address from step 6> //now we can access other methods in this contract
+7. export component=`component-address from step 6` //now we can access other methods in this contract
 
 8. resim show $acc1   - Shows Admin Account
 //the first created account has admin badge
@@ -57,7 +57,7 @@
 
 9. resim new-account  - Create New Account
 10. export acc2=`account-component-address`
-11. export pk2=(private-key)
+11. export pk2=`private-key`
 12. resim set-default-account $acc2 $pk2    //set new account as default account
 13. resim call-method $component request_user JohnDoe         //this mints a temporary badge NFT ; JohnDoe-username
 14. resim show $acc2      - John has a temp badge now
@@ -65,7 +65,7 @@
 
 16. resim set-default-account $acc1 $pk1  - switch back to admin account
 17. resim show $acc1 - to get the resource address of admin badge
-18. export admin=(admin-badge-resource-address)
+18. export admin=`admin-badge-resource-address`
 19. resim call-method $component approve_user JohnDoe --proofs 1,$admin --manifest approve_user.rtm
 20. resim run approve_user.rtm - this runs the generated rtm file     
 
@@ -78,6 +78,6 @@
 //now shifting back to acc2 to claim the user using temp badge
 21. resim set-default-account $acc2 $pk2    //switch back to JohnDoe
 22. resim show $acc2
-23. export temporary_badge=<temp-badge-address>
+23. export temporary_badge=`temp-badge-address`
 24. resim call-method $component claim_user 1,$temporary_badge        //JohnDoe has tempbadge and is authorized to call function "claim_user"
 25. resim show $acc2 - JohnDoe now has the userbadge 
