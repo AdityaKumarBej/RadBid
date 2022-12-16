@@ -24,7 +24,7 @@
 ## Building the Scrypto code
 1. Enter the scrypto directory in a terminal: `cd scrypto`
 1. Build the code: `scrypto build`
-1. Two important files (`debitable.abi` and `debitable.wasm`) will be generated in `scrypto/target/wasm32-unknown-unknown/release/`
+1. Two important files (`radbid.abi` and `radbid.wasm`) will be generated in `scrypto/target/wasm32-unknown-unknown/release/`
 
 ## Deploy the package to Alphanet
 1. Go to the [package deployer website](https://alphanet-deployer.radixdlt.com/)
