@@ -56,8 +56,8 @@
 //create a new account to assign some other badge
 
 9. resim new-account  - Create New Account
-10. export acc2=<account-component-address>
-11. export pk2=<private-key>
+10. export acc2=(account-component-address)
+11. export pk2=(private-key)
 12. resim set-default-account $acc2 $pk2    //set new account as default account
 13. resim call-method $component request_user JohnDoe         //this mints a temporary badge NFT ; JohnDoe-username
 14. resim show $acc2      - John has a temp badge now
@@ -65,7 +65,7 @@
 
 16. resim set-default-account $acc1 $pk1  - switch back to admin account
 17. resim show $acc1 - to get the resource address of admin badge
-18. export admin=<admin-badge-resource-address>
+18. export admin=(admin-badge-resource-address)
 19. resim call-method $component approve_user JohnDoe --proofs 1,$admin --manifest approve_user.rtm
 20. resim run approve_user.rtm - this runs the generated rtm file     
 
