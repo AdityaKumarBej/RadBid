@@ -56,7 +56,7 @@
 //create a new account to assign some other badge
 
 9. resim new-account  - Create New Account
-10. export acc2=(account-component-address)
+10. export acc2=`account-component-address`
 11. export pk2=(private-key)
 12. resim set-default-account $acc2 $pk2    //set new account as default account
 13. resim call-method $component request_user JohnDoe         //this mints a temporary badge NFT ; JohnDoe-username
