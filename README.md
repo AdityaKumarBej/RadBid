@@ -1,5 +1,6 @@
 # RadBid
 ECS265 - RadBid Frontend and Backend
+Link to video demonstration - https://www.youtube.com/watch?v=00PXK8vk4q8
 
 <div align="center">
   Auction Application - <b>RadBid</b> using Radix
